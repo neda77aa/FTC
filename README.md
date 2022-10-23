@@ -1,6 +1,4 @@
 # FTC
-# TadTR: End-to-end Temporal Action Detection with Transformer
-
 This repo holds the code for TadTR, described in the technical report:
 [Transformer-based Spatio-temporal Analysis for
 Automatic Classification of Aortic Stenosis
@@ -21,7 +19,7 @@ Severity from B-mode Ultrasound Cine Series].
 
 
 ## Main Results
-![](images/method.png "Architecture")
+![](images/result.png "Results")
 
 
 ## Install
