@@ -45,7 +45,7 @@ cd model/ops;
 
 # If you have multiple installations of CUDA Toolkits, you'd better add a prefix
 # CUDA_HOME=<your_cuda_toolkit_path> to specify the correct version. 
-python setup.py build_ext --inplace
+python train.py 
 ```
 
 ## Training by Yourself
