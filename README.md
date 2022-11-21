@@ -37,14 +37,10 @@ Severity from B-mode Ultrasound Cine Series].
     ```bash
     pip install -r requirements.txt
     ```
-### Compiling CUDA extensions (Optional)
-The RoIAlign operator is implemented with CUDA extension.
-If your machine does have a NVIDIA GPU with CUDA support, you can run this step. Otherwise, please set `disable_cuda=True` in `opts.py`.
+### Running the Cod
+In order to run the model add your own dataloader in dataloader folder. Chnage the path to dataloader in train.py and run the code below
+`opts.py`.
 ```bash
-cd model/ops;
-
-# If you have multiple installations of CUDA Toolkits, you'd better add a prefix
-# CUDA_HOME=<your_cuda_toolkit_path> to specify the correct version. 
 python train.py 
 ```
 
