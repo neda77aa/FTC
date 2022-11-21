@@ -37,16 +37,10 @@ Severity from B-mode Ultrasound Cine Series].
     ```bash
     pip install -r requirements.txt
     ```
-### Running the Cod
+### Running the Code
 In order to run the model add your own dataloader in dataloader folder. Chnage the path to dataloader in train.py and run the code below
 `opts.py`.
 ```bash
-python train.py 
-```
-
-## Training by Yourself
-Run the following command
-```
 python train.py 
 ```
 
