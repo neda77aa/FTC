@@ -28,7 +28,7 @@ The training procedures, loss functions and ... are implemented in network.py.
 You can find implementations for different visualizations such as t-SNE, confusion matrix, uncertainty estimation and ... in visualization/vis.py
 
 ## Main Results
-![](images/Screen Shot 2022-11-23 at 11.56.11 AM.png "Results")
+![](images/resul.png "Results")
 
 
 ## Install
