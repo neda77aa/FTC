@@ -12,8 +12,8 @@ Severity from B-mode Ultrasound Cine Series].
 
 ![](images/method.png "Architecture")
 
-## Updates
-
+## Sections
+The main folder contains the code implemented for the private dataset. 
 
 ## TODOs
 
