@@ -18,10 +18,14 @@ The main folder contains the code implemented for the private dataset. Implement
 You can add your own dataloader or adjust the implementation of dataloader/as_dataloader.py. Make sure to import your dataloader in train.py.
 ### Model
 The defined models are available in folder named model. The implementation of final model mentioned in the paper is in model/FTC_TAD. There also more choices for model selection and you can choose the model you desire by changing the name of model in get_config.py and add that model in get_model.py.
-
-
-## TODOs
-
+### Wandb
+If you want to enable the wandb log place config['wandb']= True in get_config.py and replace your directory and project name accordingly in train.py.
+### Config
+All hyperparamteres can be adjusted in get_config.py.
+### Training Scheme
+The training procedures, loss functions and ... are implemented in network.py.
+### Visualization
+You can find implementations for different visualizations such as t-SNE, confusion matrix, uncertainty estimation and ... in visualization/vis.py
 
 ## Main Results
 ![](images/result.png "Results")
