@@ -13,7 +13,12 @@ Severity from B-mode Ultrasound Cine Series].
 ![](images/method.png "Architecture")
 
 ## Sections
-The main folder contains the code implemented for the private dataset. 
+The main folder contains the code implemented for the private dataset. Implementation for TMED2 dataset is available in folder named tuft. You can get access to TMED2 dataset at https://tmed.cs.tufts.edu/tmed_v2.html. 
+### Dataloader
+You can add your own dataloader or adjust the implementation of dataloader/as_dataloader.py. Make sure to import your dataloader in train.py.
+### Model
+The defined models are available in folder named model. The implementation of final model mentioned in the paper is in model/FTC_TAD. There also more choices for model selection and you can choose the model you desire by changing the name of model in get_config.py and add that model in get_model.py.
+
 
 ## TODOs
 
