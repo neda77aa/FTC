@@ -1,8 +1,8 @@
 # FTC
-This repo holds the code for TadTR, described in the technical report:
-[Transformer-based Spatio-temporal Analysis for
+This repo holds the code for:
+{Transformer-based Spatio-temporal Analysis for
 Automatic Classification of Aortic Stenosis
-Severity from B-mode Ultrasound Cine Series].
+Severity from B-mode Ultrasound Cine Series}.
 
 ## Introduction
 
