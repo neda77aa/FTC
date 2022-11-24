@@ -47,8 +47,7 @@ You can find implementations for different visualizations such as t-SNE, confusi
     pip install -r requirements.txt
     ```
 ### Running the Code
-In order to run the model add your own dataloader in dataloader folder. Chnage the path to dataloader in train.py and run the code below
-`opts.py`.
+In order to run the model add your own dataloader in dataloader folder. Chnage the path to dataloader in train.py and run the code below.
 ```bash
 python train.py 
 ```
