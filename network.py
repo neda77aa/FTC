@@ -248,7 +248,8 @@ class Network(object):
                                torch.sum(self.neg_e*torch.exp(self.neg_e*similarity_matrix),dim=2)), dim = 1)
                             
                             loss = self._get_loss(pred_AS, target_AS, self.num_classes_AS)
-                            losses += [loss + 0.1*torch.mean(npair_loss)] #0.05*(torch.mean(entropy_attention)) +0.1*torch.mean(npair_loss)]
+                            loss = loss + 0.05*(torch.mean(entropy_attention)) +0.1*torch.mean(npair_loss)
+                            losses += [loss] 
                         
                         else:
                             pred_AS = self.model(cine) # Bx3xTxHxW
